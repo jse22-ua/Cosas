@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jugando con variable</title>
+        <link rel="stylesheet" href="css/pagina1.css">
+        <script>
+            var nombre = prompt("Introduce tu nombre por favor");
+            var apellido = prompt("Introduce tu apellido porfavor");  
+            var articulos = ["Zapatillas","Camiseta","Pantalón","calcetines"];
+            var comida = new Array("pepino","pasta","platano","persimón");
+            var casa = [];
+                     
+        </script>
+    </head>
+    <body>
+        <div class = "contenedor">
+            <div class="header">
+                <p class="logo">Cosas</p>
+            </div>
+            <div class="contenido">
+                <div class="principal">
+                    <h1>Jugando con variables</h1>
+                    <script>
+                       document.write("<p>");
+                       document.write("Hola, " + nombre + " " + apellido);
+                       document.write("</p>");
+                    </script>
+                </div>
+                <div class ="principal">
+                    <br>
+                    <h1>Articulos</h1>
+                    <script>
+                        for(var i=0;i<articulos.length;i++){
+                            var x = i+1
+                            document.write("<p>El " + x + " articulo es <strong>");
+                            document.write(articulos[i] + "</strong></p>");
+                            document.write("<br>");
+                        }
+                        document.write("<br><p> En total : " + articulos.length + " articulos </p>");   
+                    </script>
+                </div>
+            </div>
+        </div>
+</html>

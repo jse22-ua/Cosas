@@ -1,0 +1,17 @@
+body{
+    background-color:blue;
+
+}
+
+h1{
+    color: #fc0;
+    border-top: 2px solid #fff;
+    padding-bottom: 50px;
+    text-align: center;
+}
+p{
+    color : #Fc0;
+}
+p span{
+    font-size: 2cm;
+}

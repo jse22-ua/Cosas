@@ -1,0 +1,15 @@
+Tokio,21
+Nueva York,12
+Los Angeles,22
+Seul,8
+Paris,11
+Londres,11
+Shanghai,11
+Osaka,17
+Ciudad de Mexico,27
+Chicago,13
+Moscu,4
+Pekin,12
+Colonia,10
+Houston,22
+Washington,20

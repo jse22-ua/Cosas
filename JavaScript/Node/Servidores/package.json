@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.18.2"
+  },
+  "name": "servidores",
+  "version": "1.0.0",
+  "description": "un curso de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "desarrollo": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jse22-ua/Cosas.git"
+  },
+  "keywords": [
+    "nodejs",
+    "curso",
+    "español"
+  ],
+  "author": "MarquiseSparkles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jse22-ua/Cosas/issues"
+  },
+  "homepage": "https://github.com/jse22-ua/Cosas#readme"
+}
